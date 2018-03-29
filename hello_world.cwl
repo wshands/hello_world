@@ -1,6 +1,7 @@
 cwlVersion: v1.0
 class: Workflow
 
+
 inputs:
   input_file: File
   template_file: File
