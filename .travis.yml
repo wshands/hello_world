@@ -1,0 +1,16 @@
+services:
+  - docker
+
+language: python
+
+python:
+  - "3.6"
+
+before_install:
+  - wget -O requirements.txt https://dockstore.org/api/metadata/runner_dependencies?client_version=1.6.0&python_version=3
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - cwltool hello_world_checker.cwl hello_world_checker.cwl.json
