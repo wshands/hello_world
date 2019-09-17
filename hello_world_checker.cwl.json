@@ -1,0 +1,14 @@
+{
+    "template_file": {
+        "class": "File",
+        "path": "hello_world_ref/ref_subfolder/template.txt"
+    },
+    "input_file": {
+        "class": "File",
+        "path": "input.txt"
+    },
+    "knowngood_file": {
+        "class": "File",
+        "path": "knownoutput.txt"
+    }
+}
