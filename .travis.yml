@@ -1,0 +1,16 @@
+services:
+  - docker
+
+language: python
+
+python:
+  - "3.6"
+
+before_install:
+  - wget -O requirements.txt https://raw.githubusercontent.com/dockstore/dockstore/1.7.0-rc.3/dockstore-webservice/src/main/resources/requirements/1.7.0/requirements3.txt
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - cwltool hello_world_checker.cwl hello_world_checker.cwl.json
