@@ -1,5 +1,3 @@
-import "averybadimport"
-
 cwlVersion: v1.0
 class: Workflow
 
@@ -20,6 +18,7 @@ doc: |
 inputs:
   input_file: File
   template_file: File
+  bananansdfajhsdbhfjashjdfhjasd: fodfksdfsd
 
 outputs:
   output_file:
