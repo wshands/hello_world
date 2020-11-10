@@ -1,5 +1,3 @@
-this is very broken
-
 cwlVersion: v1.0
 class: Workflow
 
