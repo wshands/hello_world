@@ -18,7 +18,6 @@ doc: |
 inputs:
   input_file: File
   template_file: File
-  bananansdfajhsdbhfjashjdfhjasd: fodfksdfsd
 
 outputs:
   output_file:
@@ -27,7 +26,7 @@ outputs:
 
 steps:
   hello-world:
-    run: dockstore-tool-helloworld.cwl
+    run: dockstore-tool-helloworldFAKE.cwl
     in:
       input_file: input_file
       template_file: template_file
