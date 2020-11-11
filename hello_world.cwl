@@ -1,6 +1,4 @@
-import brokenaneanern
-
-cwlVersion: v1.0
+cwlVersion: v2.0
 class: Workflow
 
 doc: |
