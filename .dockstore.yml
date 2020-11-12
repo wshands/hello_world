@@ -4,3 +4,8 @@ workflows:
      primaryDescriptorPath: /hello_world.cwl
      testParameterFiles:
          - /test.json
+  - name: testApps
+     subclass: CWL
+     primaryDescriptorPath: /hello_world.cwl
+     testParameterFiles:
+         - /test.json
