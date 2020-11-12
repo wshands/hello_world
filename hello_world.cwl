@@ -26,8 +26,7 @@ outputs:
 
 steps:
   hello-world:
-    run: 
-      id: dockstore-tool-helloworld.cwl
+    run: dockstore-tool-helloworld.cwl
     in:
       input_file: input_file
       template_file: template_file
