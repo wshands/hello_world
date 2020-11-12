@@ -28,7 +28,6 @@ steps:
   hello-world:
     run: 
       id: dockstore-tool-helloworld.cwl
-      $import: fake.yml
     in:
       input_file: input_file
       template_file: template_file
