@@ -1,4 +1,4 @@
-cwlVersion: v2.0
+cwlVersion: v1.0
 class: Workflow
 
 doc: |
